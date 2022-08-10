@@ -1,0 +1,10 @@
+[
+    {
+        "task": "Solve equation $\\int_0^1 x^2\\,dx * y = 2$",
+        "id": 100
+    },
+    {
+        "task": "Solve equation $\\int_0^1 x^2\\,dx * z = 4$",
+        "id": 400
+    }
+]
