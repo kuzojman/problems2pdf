@@ -44,4 +44,4 @@ WORKDIR /miktex/work
 RUN pip3 install flask
 COPY . /miktex/work
 
-CMD ["python", "api.py"]
+CMD ["python3", "api.py"]
