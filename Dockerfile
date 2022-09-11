@@ -1,7 +1,7 @@
 FROM texlive/texlive:TL2020-historic
 
 RUN apt-get update -y && apt-get install -y python3 python3-pip
-RUN pip3 install flask
+RUN pip3 install flask requests
 COPY . /app
 WORKDIR /app
 CMD ["python", "api.py"]
