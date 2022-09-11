@@ -32,7 +32,7 @@ def get_listok(template, problems, td):
 
 
             if type_of_file=='image/png':
-                fname = 'image.png'
+                fname = str(problem['id'])+'image.png'
 
 
             fullname = os.path.join(td, fname)
