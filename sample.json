@@ -1,10 +1,16 @@
 [
     {
         "task": "Solve equation $\\int_0^1 x^2\\,dx * y = 2$",
-        "id": 100
+        "id": 100,
+        "image": "https://hot_data_kuzovkin_info_private.hb.bizmrg.com/picture_to_tasks/physics/2_3800_phys.png"
     },
     {
         "task": "Solve equation $\\int_0^1 x^2\\,dx * z = 4$",
         "id": 400
+    },
+    {
+        "task": "Solve equation $\\int_0^1 x^2\\,dx * z = 4$",
+        "id": 500,
+        "image": "https://hot_data_kuzovkin_info_private.hb.bizmrg.com/picture_to_tasks/physics/3_3800_phys.png"
     }
 ]
