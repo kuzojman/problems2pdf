@@ -1,0 +1,8 @@
+FROM texlive/texlive:TL2020-historic
+
+RUN apt-get update -y
+RUN apt-get install -y texlive-lang-cyrillic python3 python3-pip python3-flask python3-requests
+
+WORKDIR /app
+COPY ./pdf/ .
+CMD ["python", "api.py"]
